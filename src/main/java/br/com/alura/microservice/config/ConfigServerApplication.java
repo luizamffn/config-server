@@ -5,7 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.config.server.EnableConfigServer;
 
 @SpringBootApplication
-@EnableConfigServer
+@EnableConfigServer //habilita o config server
+					//Depois configurar o bootstrap na aplicacao que ira usar o config server e adicionar a dependencia do config server no pom.xml 
 public class ConfigServerApplication {
 
 	public static void main(String[] args) {
